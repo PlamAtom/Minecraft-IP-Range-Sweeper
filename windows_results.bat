@@ -1,0 +1,2 @@
+python results.py
+exit
