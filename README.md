@@ -63,20 +63,20 @@ Confirm by typing Y when prompted to run the scanner.
 Input how many scanner instances to run.
 Note: Each value spawns about twice as many due to delay.
 
-Example: Typing 10 runs ~20 tasks at once.
-Avoid 50-100+ as it may cause system instability.
+Example: Typing 10 runs ~20 tasks at once. I usually run 30-35 for a fast scan. 
+Avoid too high numbers for your system as it may cause system instability.
 
 ⏳ 8. Wait for Completion
 
-The scanning window will automatically close once it finishes.
+The scanning windows will automatically close once it finishes.
 
 📂 9. View Results
 
 Run windows_results.bat and open the generated results.txt file.
 
-Example filename: results_2025-06-18_03-30-17.txt
+Filename should something like: results_2025-06-18_03-30-17.txt
 
 🎮 10. Try the IPs in Minecraft
 
-Test the listed IP addresses manually in Minecraft.
+Test the listed IP addresses manually in Minecraft until you find the right one.
 Since this targets typical consumer ISP ranges, the list should be relatively short and easy to try out.
