@@ -83,9 +83,9 @@ def main():
     show_warning_and_get_agreement()
     try:
         # User input for base IP
-        base_ip = input("Enter base IP (first two octets, e.g. 81.243): ").strip()
+        base_ip = input("Enter base IP (first two octets, e.g. 89.244): ").strip()
         if len(base_ip.split('.')) != 2 or not all(part.isdigit() and 0 <= int(part) <= 255 for part in base_ip.split('.')):
-            print("Invalid base IP format! Please enter like 81.243")
+            print("Invalid base IP format! Please enter like 89.244")
             return
 
         # User input for port
@@ -102,7 +102,7 @@ def main():
                 return
 
         # User input for third octet range with strong validation
-        range_input = input("Enter third-octet (e.g. 0-10 for 81.243.0.0–81.243.10.255 or just 255): ").strip()
+        range_input = input("Enter third-octet (e.g. 0-10 for 89.244.0.0–89.244.10.255 or just 255): ").strip()
         try:
             range_start, range_end = validate_octet_range(range_input)
         except ValueError as ve:
