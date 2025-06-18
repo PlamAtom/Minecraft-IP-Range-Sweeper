@@ -27,7 +27,15 @@ After installing Git, create a folder and a .cmd file (for example, get-repo.cmd
 
 ## 📖 Windows Tutorial
 
-Follow these steps to start scanning and find potential Minecraft server IPs:
+Want to join your friend's Minecraft server, or are your friends unable to connect because the server IP has changed?
+All you (or your friends) need is the latest IP address, sometimes there might be multiple if the front part of the server address has changed.
+
+Example of a last known Server that now has a new ip:
+
+![](https://storage.imgbly.com/imgbly/bJ8M7w0pta.png)
+
+
+Follow these steps to start scanning and find the Minecraft server IPs:
 
 ▶️ 1. Run the Scanner
 
