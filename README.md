@@ -21,7 +21,62 @@ You can either:
 **or**
 - 2- Use [Git](https://git-scm.com/downloads) to clone the repository:
 
-After installing Git, create a folder and a .cmd file (for example, get-repo.cmd) with the following line, then run it 
+After installing Git, create a folder and a .cmd file (for example, get-repo.cmd) with the following line, then run it:
 
-```bash
-git clone https://github.com/PlamAtom/Minecraft-IP-Range-Sweeper.git
+    git clone https://github.com/PlamAtom/Minecraft-IP-Range-Sweeper.git
+
+## 📖 Tutorial
+
+Follow these steps to start scanning and find potential Minecraft server IPs:
+
+▶️ 1. Run the Scanner
+
+Double-click windows_start.bat to launch the tool.
+
+✅ 2. Accept Disclaimer
+
+You'll be shown a disclaimer. Type I Understand to continue.
+
+🌍 3. Enter the IP Prefix
+
+Input the first two sections of the IP address you expect to find.
+
+Example: If the server IP was 81.243.192.182:25565, you enter 81.243
+
+🔢 4. Enter the Port Number
+
+Provide the last known port used by the server. This might be different from the default 25565 depending on how the server is configured.
+
+🎯 5. Define the IP Range
+
+Set the IP range using a dash (-).
+It is highly recommended to enter 0-255 which is the upper-limit
+
+You can narrow the range depending if you have good educated guesses
+
+🛠️ 6. Start Scanning
+
+Confirm by typing Y when prompted to run the scanner.
+
+⚙️ 7. Set the Number of Scanners
+
+Input how many scanner instances to run.
+Note: Each value spawns about twice as many due to delay.
+
+Example: Typing 10 runs ~20 tasks at once.
+Avoid 50-100+ as it may cause system instability.
+
+⏳ 8. Wait for Completion
+
+The scanning window will automatically close once it finishes.
+
+📂 9. View Results
+
+Run windows_results.bat and open the generated results.txt file.
+
+Example filename: results_2025-06-18_03-30-17.txt
+
+🎮 10. Try the IPs in Minecraft
+
+Test the listed IP addresses manually in Minecraft.
+Since this targets typical consumer ISP ranges, the list should be relatively short and easy to try out.
