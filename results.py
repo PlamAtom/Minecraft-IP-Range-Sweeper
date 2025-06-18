@@ -8,9 +8,9 @@ Each scanner saves its results to a separate file. Before combining them into a 
 
 Type 'Proceed' (case-sensitive) to continue, or close this window to cancel.
 """
-    print("_*_"*40)
+    print("|"*240)
     print(notice)
-    print("_*_"*40)
+    print("_|_"*80)
     user_input = input("Type here: ").strip()
     if user_input != "Proceed":
         print("Operation cancelled by user.")
