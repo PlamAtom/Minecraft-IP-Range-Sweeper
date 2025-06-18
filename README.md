@@ -5,7 +5,7 @@ This software was developed based on Python 3.11 on the Windows operating system
 ## 🚀 Installation
 
 ### ✅ 1. Install Python 3.11
-This tool was tested with **Python 3.11**. You can download it from:
+You can download it from:
 
 👉 https://www.python.org/downloads/release/python-3110/
 
