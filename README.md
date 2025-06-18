@@ -33,7 +33,7 @@ Follow these steps to start scanning and find potential Minecraft server IPs:
 
 Double-click windows_start.bat to launch the tool.
 
-![](https://storage.imgbly.com/imgbly/H6jcOGkm3u.png)
+![](https://storage.imgbly.com/imgbly/eXrt8kKBJ8.png)
 
 ✅ 2. Accept Disclaimer
 
