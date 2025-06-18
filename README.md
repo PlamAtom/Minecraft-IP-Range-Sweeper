@@ -25,13 +25,14 @@ After installing Git, create a folder and a .cmd file (for example, get-repo.cmd
 
     git clone https://github.com/PlamAtom/Minecraft-IP-Range-Sweeper.git
 
-## 📖 Tutorial
+## 📖 Windows Tutorial
 
 Follow these steps to start scanning and find potential Minecraft server IPs:
 
 ▶️ 1. Run the Scanner
 
 Double-click windows_start.bat to launch the tool.
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 ✅ 2. Accept Disclaimer
 
