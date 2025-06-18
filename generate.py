@@ -44,9 +44,9 @@ def show_warning_and_get_agreement():
     warning_text = """
  Users who are inexperienced or uncertain about system behavior under high load are strongly advised not to run more than 10-20 scanners at once. Do not run All at once unless you know what you are doing.
 """
-    print("|"*240)
+    print("|"*90)
     print(warning_text)
-    print("_|_"*80)
+    print("_|_"*30)
     print("\nYou must type 'I Understand' (case-sensitive) to continue.")
     user_agree = input("Type here: ").strip()
     if user_agree != "I Understand":
